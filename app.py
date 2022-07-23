@@ -19,8 +19,8 @@ This app multiplies two number
 st.header('User Input Parameters')
 
 def user_input_features():
-    n1 = st.number_input("Number_1", step=1)
-    n2 = st.number_input("Number_2", step=1)
+    n1 = st.number_input("Number_1")
+    n2 = st.number_input("Number_2")
 
     return n1, n2
 
