@@ -8,7 +8,6 @@ Original file is located at
 """
 
 import streamlit as st
-import numpy as np
 
 st.write("""
 # Two Numbler Multiplication App
