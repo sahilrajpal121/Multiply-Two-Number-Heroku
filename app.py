@@ -25,5 +25,6 @@ def user_input_features():
     return n1, n2
 
 n1, n2 = user_input_features()
+st.write((n1, n2))
 if st.button('Calculate'):
     st.write(n1*n2)
