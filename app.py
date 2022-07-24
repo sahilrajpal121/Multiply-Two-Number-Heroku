@@ -21,3 +21,6 @@ n1 = st.number_input("Number_1")
 n2 = st.number_input("Number_2")
 
 st.write(float(n1*n2))
+
+if __name__ == '__main__':
+    main()
