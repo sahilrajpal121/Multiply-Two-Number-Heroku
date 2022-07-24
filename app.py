@@ -20,6 +20,4 @@ st.header('User Input Parameters')
 n1 = st.number_input("Number_1")
 n2 = st.number_input("Number_2")
 
-if st.button('Calculate'):
-    prod = n1 * n2
-    st.write(prod)
+st.write(n1*n2)
