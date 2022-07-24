@@ -20,4 +20,4 @@ st.header('User Input Parameters')
 n1 = st.number_input("Number_1")
 n2 = st.number_input("Number_2")
 
-st.write(n1*n2)
+st.write(float(n1)*float(n2))
