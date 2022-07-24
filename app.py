@@ -1,7 +1,7 @@
 import streamlit as st
 
 string = "Multiplier"
-st.set_page_config(page_title=string, page_icon="🐈‍⬛")
+st.set_page_config(page_title=string)
 
 st.write("""
 # Two Numbler Multiplication App
